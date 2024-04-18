@@ -20,6 +20,8 @@ class Solution:
 
 
 18/4/24 
+Reverse List -> 
+
 
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
