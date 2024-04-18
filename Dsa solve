@@ -17,3 +17,19 @@ class Solution:
         node.next = list1 or list2
 
         return dummy.next
+
+
+18/4/24 
+
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        prev, curr = None, head
+
+        while curr:
+            temp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = temp
+        return prev
+
+
